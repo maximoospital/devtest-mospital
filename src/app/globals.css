@@ -1,0 +1,336 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  background-color: white;
+}
+
+.bg-gris {
+  background-color: #F9F9F8;
+}
+
+/* Navbar */
+.bg-dark-gray {
+  background-color: #252F3D;
+  color: white;
+  height: 50px !important;
+  pointer-events: none;
+}
+
+.bg-dark-gray button {
+  pointer-events: all;
+}
+
+.navbar-textos {
+  font-size: 14px;
+  margin-top: inherit;
+}
+
+@media (max-width: 1270px) {
+  .navbar {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  .navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 1085px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .navbar-textos {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 939px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .navbar {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .navbar-textos {
+    font-size: 14px;
+    margin-top: inherit;
+  }
+}
+
+@media (max-width: 570px) {
+  .navbar {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 326px) {
+  .navbar-textos {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+}
+
+/* Footer */
+.footer {
+    height: 78px !important;
+    font-size: 14px;
+}
+
+.footer-pe {
+  padding-inline-end: 0.5rem;
+}
+
+.footer-ps {
+  padding-inline-start: 0.5rem;
+  pointer-events: all;
+}
+
+@media (max-width: 1040px) {
+  .footer {
+    height: 102px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer {
+    font-size: 11px;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 338px) {
+  .footer {
+    font-size: 9px;
+  }
+}
+
+/* Order in Progress title */
+
+.order-progress {
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.lorem-ipsum {
+  font-weight: 400;
+  font-size: 24px;
+  color: #4D5254;
+}
+
+@media (max-width: 768px) {
+  .lorem-ipsum {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .order-progress {
+    font-size: 38px;
+    line-height: 1.3;
+  }
+  .lorem-ipsum {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lorem-ipsum {
+    @apply line-clamp-1;
+    font-size: 15px;
+  }
+}
+
+/* Steps */
+
+.pasos p {
+  white-space: nowrap;
+}
+
+@media (max-width: 940px) {
+  .pasos svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 362px){
+  .pasos p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 320px){
+  .pasos p{
+    font-size: 8px;
+  }
+}
+
+.oto {
+  font-size: 28px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.oto span {
+  color: #2C7EF8;
+}
+
+.summary {
+  font-size: 14px;
+  color: #4D5254;
+}
+
+.price span {
+  color: #2C7EF8;
+}
+
+.prod-bio {
+  margin-top: -5px;
+}
+
+.prod-bio-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 426px) {
+  .prod-bio-title {
+    font-size: 16px;
+  }
+  .stock {
+    font-size: 14px;
+  }
+}
+
+.price-before {
+  font-size: 15px;
+  color: #969696;
+  text-decoration-line: line-through;
+}
+
+.features {
+  color: #4D5254;
+  font-weight:normal;
+  text-break: nowrap;
+}
+
+.features span {
+  font-weight:bold;
+}
+
+.coupon {
+  background: #EDF3FD;
+  border-radius: 10px;
+}
+
+.coupon span {
+  color: #2C7EF8;
+}
+
+.discount-button {
+  background: #59AE43;
+  color: white;
+  border-radius: 50px;
+  height: 50px;
+  font-weight: 600;
+}
+
+.deny-discount {
+  color: #F82C2C;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.testimonial {
+  font-weight: normal;
+  color: #4d5254;
+  font-size: 13px;
+}
+
+.verifiedcustomer {
+  color: #5BB59A;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.guarantee {
+  font-size: 15px;
+  color: #4D5254;
+  line-height: 1.2;
+}
+
+.guarantee span {
+  font-weight: bold;
+}
+
+@media (max-width: 450px) {
+  .features {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 405px) {
+  .features {
+    font-size: 12px;
+  }
+}
+
+.otomb {
+  font-size: 36px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.2;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  .otomb {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .otomb {
+    font-size: 28px;
+  }
+}
+
+.otomb span {
+  color: #2C7EF8;
+}
