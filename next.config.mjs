@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
+const basePath = '/devtest-mospital';
+const assetPrefix = `${basePath}/`;
+
 const nextConfig = {
-  basePath: '/devtest-mospital',
+  basePath,
+  assetPrefix,
+  trailingSlash: true,
+  output: 'export',
 };
 
 export default nextConfig;
