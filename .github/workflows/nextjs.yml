@@ -70,15 +70,10 @@ jobs:
 
       - name: Flatten static export into out/
         run: |
-          # promote devtest-mospital files if directory exists
-          if [ -d out/devtest-mospital ]; then
-            mv out/devtest-mospital/* out/
-            rm -rf out/devtest-mospital
-          else
-            echo "No devtest-mospital subdirectory found, skipping flatten."
-            echo "Contents of out/:"
-            ls -R out
-          fi
+          # if you see out/devtest-mospital/index.html, promote it
+          cd out
+          mv devtest-mospital/* .
+          rm -rf devtest-mospital
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
