@@ -20,7 +20,7 @@ const Footer = () => {
 
       {/* Images on the right */}
       <div className={'flex items-center space-x-2 block'}>
-        <Image src="/assets/customicons/lock.svg" alt="" width={16} height={16} />
+        <Image src="/devtest-mospital/assets/customicons/lock.svg" alt="" width={16} height={16} />
         <p className="footer-pe">Secure 256-bit SSL encryption.</p>
       </div>
     </footer>

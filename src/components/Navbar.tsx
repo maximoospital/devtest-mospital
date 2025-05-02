@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="bg-dark-gray p-4 px-36 flex justify-between items-center sticky top-0 navbar">
       <button onClick={prevItem} className="nbm:hidden">
-        <img src="/assets/customicons/left-arrow.svg" alt="Previous" width="12" height="12" />
+        <img src="/devtest-mospital/assets/customicons/left-arrow.svg" alt="Previous" width="12" height="12" />
       </button>
       {items.map((item, index) => (
         <Link legacyBehavior key={index} href={item.href}>
@@ -34,7 +34,7 @@ const Navbar = () => {
         </Link>
       ))}
       <button onClick={nextItem} className="nbm:hidden">
-        <img src="/assets/customicons/right-arrow.svg" alt="Next" width="12" height="12" />
+        <img src="/devtest-mospital/assets/customicons/right-arrow.svg" alt="Next" width="12" height="12" />
       </button>
     </nav>
   );
