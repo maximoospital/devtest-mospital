@@ -68,17 +68,17 @@ const Home = () => {
               <div className="rounded bg-[#FAFAFA] p-6 flex flex-wrap md:flex-nowrap gap-x-6">
                 <div className="md:w-1/2 space-y-4">
                   <h2 className="text-4xl font-bold otomb block md:hidden"><span>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span>$14 Each</span> ($84.00 total!)</h2>
-                  <img src="/assets/images/Product.png" alt="Product Image" className="w-full object-cover rounded-lg"/>
+                  <img src="/devtest-mospital/assets/images/Product.png" alt="Product Image" className="w-full object-cover rounded-lg"/>
                   <div className="bg-white p-4 rounded-lg flex items-center space-x-2  hidden md:block">
                     <div>
                       <div className="flex items-center">
                         {/* Star rating component */}
-                        <img src="/assets/images/pfp.png" alt="Reviewer" className="w-10 h-10 rounded-full"/>
+                        <img src="/devtest-mospital/assets/images/pfp.png" alt="Reviewer" className="w-10 h-10 rounded-full"/>
                         <div className="flex flex-col ml-2">
-                          <img src="/assets/customicons/stars.svg" alt="Verified" className="w-20 h-6"/>
+                          <img src="/devtest-mospital/assets/customicons/stars.svg" alt="Verified" className="w-20 h-6"/>
                           <div className='flex flex-row space-x-1'>
                            <p className="text-sm font-bold">Ken T.</p>
-                            <img src="/assets/customicons/verified.svg" alt="Verified" className="w-4 h-4 ml-2"/>
+                            <img src="/devtest-mospital/assets/customicons/verified.svg" alt="Verified" className="w-4 h-4 ml-2"/>
                             <p className="text-sm verifiedcustomer">Verified Customer</p>
                           </div>
                         </div>
@@ -90,7 +90,7 @@ const Home = () => {
                 <div className="md:w-1/2 space-y-2 mt-2 md:mt-0 md:pl-4">
                   <h2 className="text-3xl font-bold oto hidden md:block"><span>ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span>$14 Each</span> ($84.00 total!)</h2>
                   <div className="p-4 pl-0 rounded-lg flex">
-                    <img src="/assets/images/producticon.png" alt="Another Image" className="w-28 h-28 rounded-lg mr-4"/>
+                    <img src="/devtest-mospital/assets/images/producticon.png" alt="Another Image" className="w-28 h-28 rounded-lg mr-4"/>
                     <div>
                       <div className="flex flex-col prod-bio">
                         {/* Star rating component */}
@@ -143,11 +143,11 @@ const Home = () => {
                     <p className='ml-3'>Save <span>53%</span> and get <span>6 extra Clarifision</span> for only <span>$14 Each</span>.</p>
                   </div>
                   <button className="discount-button w-full text-white px-4 py-2 rounded-lg extended">YES - CLAIM MY DISCOUNT →</button>
-                  <img src="/assets/images/tags-mobile.svg" alt="Secure" className="nbm:hidden w-full"/>
-                  <img src="/assets/images/tags.svg" alt="Secure" className="hidden nbm:block w-full"/>
+                  <img src="/devtest-mospital/assets/images/tags-mobile.svg" alt="Secure" className="nbm:hidden w-full"/>
+                  <img src="/devtest-mospital/assets/images/tags.svg" alt="Secure" className="hidden nbm:block w-full"/>
                   <button className="deny-discount w-full text-white px-4 py-2 rounded-lg extended">NO THANKS, I DON&apos;T WANT THIS.</button>
                   <div className='flex flex-row items-center space-x-2 mt-4'>
-                    <img src="/assets/images/satisfaction.png" alt="Satisfaction" className="w-20 h-20"/>
+                    <img src="/devtest-mospital/assets/images/satisfaction.png" alt="Satisfaction" className="w-20 h-20"/>
                     <p className="text-xs guarantee">If you are not completely thrilled with your Clarifion - We have a <span>30 day satisfaction guarantee</span>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
                     </div>
                 </div>
