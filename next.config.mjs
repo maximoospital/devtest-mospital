@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-const basePath = isProd ? '/devtest-mospital' : '';
-const assetPrefix = isProd ? '/devtest-mospital/' : '';
+const basePath = '/devtest-mospital';
+const assetPrefix = `${basePath}/`;
 
 const nextConfig = {
   basePath,
